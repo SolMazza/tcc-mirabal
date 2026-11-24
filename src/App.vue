@@ -1,10 +1,10 @@
 <template>
   <header>
 
-    <nav class="navbar sm:navbar-expand bg-1 fg-2">
+    <nav  style="background-color: #fff2f6; border-bottom: 2pix solid #ac3458;" class="navbar sm:navbar-expand bg-1 fg-2">
 
       <div class="container-fluid">
-        <div><img src="..." class="img-fluid" alt="..."></div>
+        <div><img src="../public/imagens/logo/logo-mirabal.png" class="img-fluid" alt="..."></div>
         <div><button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon" aria-hidden="true"></span>
@@ -61,6 +61,7 @@
 
 <script setup></script>
 <style scoped>
+
 @layer custom {
   .bd-example-resizable {
     padding: 0.375rem;
@@ -79,6 +80,10 @@
 
   .container-fluid {
     justify-content: space-between;
+  }
+  header{
+      background-color: #fff2f6;
+
   }
 }
 </style>

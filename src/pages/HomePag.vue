@@ -5,4 +5,9 @@
 </template>
 
 <script setup></script>
-<style scoped></style>
+<style scoped>
+body{
+    background-color: #fff2f6;
+}
+
+</style>
