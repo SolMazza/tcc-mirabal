@@ -1,11 +1,20 @@
-<script setup></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <header>
+
+    <nav>
+      <router-link to="/">Home</router-link>
+      <router-link to="/historia">História</router-link>
+      <router-link to="/apoie">Apoie</router-link>
+      <router-link to="/acoes">Ações</router-link>
+      <router-link to="/festival-mirabal">Festival Mirabal</router-link>
+      <router-link to="/contato">Contato</router-link>
+    </nav>
+
+  </header>
+  <footer></footer>
+
+  <router-view />
 </template>
 
+<script setup></script>
 <style scoped></style>
